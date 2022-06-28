@@ -24,7 +24,7 @@ dados_2006 <- tabela_2006 %>% select (-c(Homens...76, Mulheres...78,
 
 dados_95_96 <- tabela_95_96 %>% select (-c(Homens...97, Mulheres...99, `Porcentagem dehomens`, 
                                            `Porcentagem demulheres`))
-#renaming columns
+#renaming columns / removing patterns
 names(dados_2017) <- sub("\\....*", "", names(dados_2017))
 names(dados_2006) <- sub("\\....*", "", names(dados_2006))
 names(dados_95_96) <- sub("\\....*", "", names(dados_95_96))
