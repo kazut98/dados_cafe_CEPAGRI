@@ -6,7 +6,7 @@ dados_cafe <- read_excel('C:/Users/ra236134/Downloads/Data_Coffee.xlsx', skip=1)
 
 #################################################################################################
 
-#creating tabbles
+#creating tables
 
 tabela_2017 <- dados_cafe[, 1:46] 
 tabela_2006 <- dados_cafe[, 48:87]
