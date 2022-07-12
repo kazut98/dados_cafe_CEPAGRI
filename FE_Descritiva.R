@@ -1,7 +1,7 @@
 library("readxl")
 library("data.table")
 library("dplyr")
-setwd('C:/Users/ra236134/Downloads')
+setwd('../Downloads')
 dados_cafe <- read_excel('../Data_Coffee.xlsx', skip=1)
 
 #################################################################################################
